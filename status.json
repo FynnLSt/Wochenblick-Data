@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "description": "Händlerstatus werden separat in status/<slug>.json gespeichert.",
+  "stores": [
+    "netto",
+    "aldi-sued",
+    "lidl",
+    "edeka",
+    "rewe",
+    "kaufland"
+  ]
+}
