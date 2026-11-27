@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "f8cbace0-d869-4c49-ad91-ea274d4a9b78",
+  "store": "ALDI Süd",
+  "slug": "aldi-sued",
+  "scope": "product",
+  "reason": "Sonstiges",
+  "description": "Der Vergleichspreis hat eine komisch große Spanne",
+  "start": "2026-11-23",
+  "end": "2026-11-28",
+  "createdAt": "2026-11-27T16:22:22.756809+01:00",
+  "product": {
+    "id": "8d077428d86541abd8",
+    "store": "ALDI Süd",
+    "name": "ALMARE SEAFOOD Heringsfilet 200 g, Eier-Senfcreme",
+    "price": 0.85,
+    "oldPrice": 1.09,
+    "oldPriceKind": "Vergleichspreis",
+    "size": "200 g",
+    "unitPrice": 4.25,
+    "unit": "kg",
+    "oldUnitPrice": 5.45,
+    "baseText": "(4,25 €/1 kg)",
+    "start": "2026-11-23",
+    "end": "2026-11-28",
+    "app": false,
+    "description": "Kühlung",
+    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/232/c9807763-7520-4b39-a8a4-28431a7fc361/Heringsfilet%20200%20g%20EierSenfcreme",
+    "source": "https://www.aldi-sued.de/produkt/almare-seafood-heringsfilet-200-g-eier-senfcreme-000000000191450011",
+    "categories": [
+      "Fisch & Meeresfrüchte",
+      "Eier"
+    ],
+    "note": ""
+  }
+}
