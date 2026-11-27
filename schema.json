@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wochenblick Prüfergebnis",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "store",
+    "status",
+    "start",
+    "end",
+    "offers",
+    "removeIds",
+    "checkedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "store": {
+      "enum": [
+        "Netto",
+        "ALDI Süd",
+        "Lidl",
+        "EDEKA",
+        "REWE",
+        "Kaufland"
+      ]
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "failed"
+      ]
+    },
+    "start": {
+      "type": "string",
+      "format": "date"
+    },
+    "end": {
+      "type": "string",
+      "format": "date"
+    },
+    "checkedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "message": {
+      "type": "string"
+    },
+    "removeIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "offers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "store",
+          "name",
+          "price",
+          "start",
+          "end",
+          "source",
+          "categories"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "oldPrice": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "size": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string",
+            "format": "date"
+          },
+          "end": {
+            "type": "string",
+            "format": "date"
+          },
+          "source": {
+            "type": "string",
+            "format": "uri"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "app": {
+            "type": "boolean"
+          },
+          "baseText": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
