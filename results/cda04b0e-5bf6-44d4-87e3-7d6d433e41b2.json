@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cda04b0e-5bf6-44d4-87e3-7d6d433e41b2",
+  "store": "Netto",
+  "status": "completed",
+  "start": "2026-11-23",
+  "end": "2026-11-28",
+  "checkedAt": "2026-11-27T14:06:20.931Z",
+  "message": "Originalangebot der Netto-Filiale Herrnstraße 103, 90763 Fürth, für 23.–28.11.2026 geprüft. Der erfasste App-Preis von 2,49 € für 2,3 kg Clementinen ist korrekt (1,08 €/kg). Aktionspreis ohne App: 3,49 € (1,52 €/kg); angegebene UVP: 4,99 € (rechnerisch 2,17 €/kg). Keine falsche Produktzuordnung oder Preisabweichung festgestellt. Einzelproduktprüfung; keine Aussage zur Vollständigkeit anderer Netto-Angebote.",
+  "offers": [
+    {
+      "store": "Netto",
+      "name": "Clementinen",
+      "price": 2.49,
+      "oldPrice": 4.99,
+      "oldPriceKind": "UVP",
+      "size": "2,3 kg Kiste",
+      "baseText": "1,08 €/kg",
+      "start": "2026-11-23",
+      "end": "2026-11-28",
+      "app": true,
+      "description": "Griechenland/Spanien, Klasse I. App-Preis 2,49 €; Aktionspreis ohne App 3,49 € (1,52 €/kg); UVP 4,99 €.",
+      "source": "https://www.netto-online.de/filialen/fuerth/herrnstr-103/8361",
+      "categories": [
+        "Obst"
+      ]
+    }
+  ],
+  "removeIds": []
+}
