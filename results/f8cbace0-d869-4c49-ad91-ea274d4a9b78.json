@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "f8cbace0-d869-4c49-ad91-ea274d4a9b78",
+  "store": "ALDI Süd",
+  "status": "completed",
+  "start": "2026-11-23",
+  "end": "2026-11-28",
+  "checkedAt": "2026-11-27T15:23:42.663Z",
+  "message": "Das offizielle ALDI-Süd-Wochenangebot vom 23.–28.11.2026 bestätigt die konkrete Variante Eier-Senfcreme (200 g): 0,85 € statt 1,09 €, beworbener Preisnachlass 22 %. Grundpreise: 4,25 €/kg aktuell und rechnerisch 5,45 €/kg vorher. Die Differenz von 0,24 € je Packung bzw. 1,20 €/kg ist korrekt; keine Preisspanne für diese feste Packungsgröße. Der Vergleichspreis ist nicht als UVP ausgewiesen. Die Kategorie Eier wurde entfernt, da es sich um Fisch mit einer Eier-Senfcreme, nicht um Eier als eigenes Lebensmittel handelt. Begrenzter Vorrat laut Händler; keine konkrete Bestandsaussage für Fürth.",
+  "offers": [
+    {
+      "store": "ALDI Süd",
+      "name": "ALMARE SEAFOOD Heringsfilet 200 g, Eier-Senfcreme",
+      "price": 0.85,
+      "oldPrice": 1.09,
+      "oldPriceKind": "Vergleichspreis",
+      "size": "200 g",
+      "baseText": "4,25 €/kg",
+      "start": "2026-11-23",
+      "end": "2026-11-28",
+      "app": false,
+      "description": "Gekühltes Heringsfilet in Eier-Senfcreme, Preisnachlass 22 %. Aktionsartikel in begrenzter Anzahl.",
+      "source": "https://www.aldi-sued.de/produkte/wochenangebote/k/1588161426582123",
+      "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/232/c9807763-7520-4b39-a8a4-28431a7fc361/Heringsfilet%20200%20g%20EierSenfcreme",
+      "categories": [
+        "Fisch & Meeresfrüchte"
+      ]
+    }
+  ],
+  "removeIds": []
+}
