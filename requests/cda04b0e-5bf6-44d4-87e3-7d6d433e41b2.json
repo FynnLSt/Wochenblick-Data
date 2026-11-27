@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cda04b0e-5bf6-44d4-87e3-7d6d433e41b2",
+  "store": "Netto",
+  "slug": "netto",
+  "scope": "product",
+  "reason": "Falscher Preis",
+  "description": "Funktionstest: Bitte den beworbenen App-Preis der Clementinen mit dem Originalangebot der Filiale abgleichen. Der gemeldete Preis ist ein tatsächlich erfasster Preis; eine Abweichung wird nicht vorausgesetzt.",
+  "start": "2026-11-23",
+  "end": "2026-11-28",
+  "createdAt": "2026-11-27T14:04:52.826Z",
+  "product": {
+    "id": "3795787ff994b41ac2",
+    "store": "Netto",
+    "name": "Clementinen",
+    "price": 2.49,
+    "oldPrice": 4.99,
+    "oldPriceKind": "UVP",
+    "size": "2,3 kg Kiste",
+    "unitPrice": 1.08,
+    "unit": "kg",
+    "oldUnitPrice": 2.17,
+    "baseText": "(1.08 / kg)",
+    "start": "2026-11-23",
+    "end": "2026-11-28",
+    "app": true,
+    "source": "https://www.netto-online.de/filialen/fuerth/herrnstr-103/8361",
+    "categories": [
+      "Obst"
+    ]
+  }
+}
